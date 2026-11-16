@@ -113,8 +113,12 @@ nav > ul > li.active {
 
 @media (max-width: 775px) {
 
-  body {
-    padding: 10px;
+  main {
+    padding: 20px;
+  }
+
+  nav > ul li:first-child {
+    margin-right: 0;
   }
 
   .row>[class*="col"] {
