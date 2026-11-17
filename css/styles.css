@@ -86,6 +86,20 @@ nav > ul > li.active {
   background-color: var(--primary-hover-color)!important;
 }
 
+ a {
+   color: var(--primary-color)!important;
+   text-decoration: none!important;
+ }
+
+ a:hover {
+   color: var(--primary-hover-color)!important;
+   text-decoration:underline!important;
+ }
+
+ a > i:hover {
+   text-decoration:none!important;
+ }
+
 .bi {
   margin-right: 5px;
 }
